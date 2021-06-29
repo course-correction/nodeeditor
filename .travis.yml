@@ -5,7 +5,7 @@ matrix:
     - os: osx
       osx_image: xcode11.3
       compiler: clang
-      env: Qt5_DIR=/usr/local/opt/qt5/lib/cmake/Qt5
+      env: Qt6_DIR=/usr/local/opt/qt6/lib/cmake/Qt6
 
     - os: linux
       dist: xenial

@@ -23,7 +23,7 @@ configuration:
 
 install:
   - set PATH=%QTDIR%\bin;%PATH%
-  - set Qt5_DIR=%QTDIR%\lib\cmake\Qt5
+  - set Qt6_DIR=%QTDIR%\lib\cmake\Qt6
   - set PATH=C:\MinGW\bin;C:\MinGW\msys\1.0;%PATH%
   - set PATH=C:\Qt\Tools\mingw530_32;%PATH%
   - set PATH=%PATH:C:\Program Files\Git\usr\bin=% # trick to remove sh.exe
